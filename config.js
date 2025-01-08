@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ENTER YOUR SESSION HERE",
+SESSION_ID: process.env.SESSION_ID || "",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
-ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/jjbSFpsm/JINHUYK-MD-V3.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/ykbCjPg/Manul-Ofc-X.jpg",
 ALIVE_MSG: process.env.ALIVE_MSG || "HI DEAR IM ONLINE JINHUYK-MD-V3 WHATSAPP BOT\n\n> 𝖡𝖸 KANGJINHUYK",
 ANTI_LINK: process.env.ANTI_LINK || "false",
 ANTI_BAD: process.env.ANTI_BAD || "true",
